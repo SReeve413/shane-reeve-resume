@@ -1,6 +1,11 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 5%;
+  /*Change main font??*/
   font-family: sans-serif;
   background-color: #E5E5E5;
+  /*still need to figure out max width*/
+  max-width:  200px;
+  display: Flex;
+  justify-content: center;
 }

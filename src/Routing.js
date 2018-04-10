@@ -8,7 +8,6 @@ import {
 import Landing from './pages/Landing'
 import NotFound from './pages/NotFound'
 
-// I want to use the tag that doesn't use a div Ask Tyler if he knows of where to find it
 export default () => (
     <React.Fragment>
 

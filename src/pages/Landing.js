@@ -1,26 +1,20 @@
 import React from 'react'
-import styled from "styled-components";
 
+import Name from '../components/Name'
 
 class Landing extends React.Component {
-
 
     render() {
         return (
             <React.Fragment>
-
-
-                <Main>
-                    <h2>
-                        Landing Page
-                    </h2>
-                </Main>
-
-
+                <main>
+                    <section id="Name">
+                        <Name/>
+                    </section>
+                </main>
             </React.Fragment>
         )
     }
-
 }
 
 export default Landing
