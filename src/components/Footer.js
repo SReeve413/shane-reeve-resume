@@ -6,7 +6,7 @@ class Footer extends React.Component {
         return (
             <React.Fragment>
                 <section>
-                    <div className="Left flex-end">
+                    <div className="Left flex-end flex-column">
                         <h3>Contact</h3>
                         <h4>Let's Work Together</h4>
                     </div>

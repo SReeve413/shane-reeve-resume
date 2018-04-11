@@ -22,20 +22,19 @@ class Skills extends React.Component {
                             <p className="Tech-Skills">RESTful API</p>
                             <p className="Tech-Skills">GraphQL</p>
                             <p className="Tech-Skills">GitHub</p>
-                            <p className="Tech-Skills">NPM</p>
+
                         </div>
                         <div className="Column50">
+                            <p className="Tech-Skills">NPM</p>
+                            <p className="Tech-Skills">Webstorm/VS Code</p>
                             <p className="non-Tech-Skills">Figma</p>
                             <p className="non-Tech-Skills">Adobe Photoshop</p>
                             <p className="non-Tech-Skills">Adobe Illustrator</p>
-                            <p className="non-Tech-Skills">Webstorm/VS Code</p>
                             <p className="non-Tech-Skills">Problem Solving</p>
                             <p className="non-Tech-Skills">Communication</p>
-                            <p className="non-Tech-Skills">Teamwork</p>
-                            <p className="non-Tech-Skills">Self-Driven</p>
                             <p className="non-Tech-Skills">Photography</p>
                             <p className="non-Tech-Skills">Cinematography</p>
-                            <p className="non-Tech-Skills">Maker</p>
+                            <p className="non-Tech-Skills">Craftsman</p>
                         </div>
                     </div>
                 </section>

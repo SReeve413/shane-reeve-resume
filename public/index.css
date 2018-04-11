@@ -1,6 +1,7 @@
 :root{
     --colored-font: #0058CF;
-    
+    --bg-color: #FAFAFA;
+    --base-color: #828282;
 }
 
 body {
@@ -8,8 +9,8 @@ body {
     padding: 0;
     /*Change main font??*/
     font-family: sans-serif;
-    background-color: #FAFAFA;
-    color: #828282;
+    background-color: var(--bg-color);
+    color: var(--base-color);
 }
 
 main{
@@ -40,7 +41,7 @@ section {
 hr{
     width:100%;
     height: .15rem;
-    background-color:#828282;
+    background-color:var(--base-color);
     border: 0;
     margin: 1rem 0 2rem 0;
 }
@@ -117,8 +118,8 @@ h6{
 }
 .Icon{
     opacity: .5;
-    color: #FAFAFA;
-    background: #828282;
+    color: var(--bg-color);
+    background: var(--base-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,6 +162,10 @@ h6{
     flex-flow: column;
 
 }
+.flex-wrap{
+    display: Flex;
+    flex-wrap: wrap;
+}
 p{
     font-size: 1.25rem;
     margin: 0;
@@ -177,12 +182,13 @@ p{
 }
 .margin-gray{
     margin: 0;
-    line-height: 1.5;
-    color: #828282
+    color: var(--base-color);
 }
 .Experience{
     margin: 0 0 1rem 0;
-
+}
+.LineHeight{
+    line-height: 1.4;
 }
 .lineItem{
     font-size: 1rem;
@@ -204,3 +210,61 @@ li:before{
     color: var(--colored-font);
     font-weight: bold;
 }
+.projectHead{
+    width: 90%;
+    height: 3rem;
+
+}
+.project{
+    width: 90%;
+    height: 13rem;
+    margin: 1rem 5% 1rem 0;
+    border: solid 3px;
+    position: relative;
+    background-size: cover !important;
+    overflow: hidden;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: .5rem;
+}
+.text {
+    background-color: var(--colored-font);
+    color: var(--bg-color);
+    font-size: 1rem;
+    padding: 16px 32px;
+}
+.Column50:hover .middle{
+ opacity: .8;
+}
+
+#Warehouse{
+    background-image: url("https://images.unsplash.com/photo-1470173274384-c4e8e2f9ea4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8f8bf185da8d21fad65f2636d6021ba7&auto=format&fit=crop&w=2700&q=80");
+}
+#ArtEcommerce{
+    background-image: url("https://images.unsplash.com/photo-1494346630177-f9d9a1a9f716?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=99f0ede13a208504d84cf8e02a7612bc&auto=format&fit=crop&w=1950&q=80");
+}
+#PersonalResume{
+    background-image: url("https://images.unsplash.com/photo-1482440308425-276ad0f28b19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=95f938199a2d20d027c2e16195089412&auto=format&fit=crop&w=1950&q=80");
+}
+#QuadGuard{
+     background-image: url("https://images.unsplash.com/photo-1470173274384-c4e8e2f9ea4c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8f8bf185da8d21fad65f2636d6021ba7&auto=format&fit=crop&w=2700&q=80");
+}
+#Photography{
+    background-image: url("https://images.unsplash.com/photo-1470940511639-1068d7764233?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9af545bc163428458f91b05101e38ef8&auto=format&fit=crop&w=1953&q=80");
+}
+#Woodworking{
+    background-image: url("https://images.unsplash.com/photo-1422246654994-34520d5a0340?ixlib=rb-0.3.5&s=76458625a3adf9cbc6438f4ab36b85a7&auto=format&fit=crop&w=1950&q=80");
+}
+#RunTri{
+     background-image: url("https://images.unsplash.com/photo-1469395446868-fb6a048d5ca3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3b253c025759db68595a316e7d4991fd&auto=format&fit=crop&w=2690&q=80");
+ }
