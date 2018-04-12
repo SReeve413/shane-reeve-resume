@@ -10,9 +10,6 @@ import OtherInterests from "../components/OtherInterests"
 import Footer from "../components/Footer"
 
 
-
-
-
 class Landing extends React.Component {
 
     render() {

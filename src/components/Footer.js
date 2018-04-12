@@ -20,17 +20,17 @@ class Footer extends React.Component {
                                 </div>
                                 <div className="Column">
                                     <h5>Phone</h5>
-                                    <h6>801.419.9702</h6>
+                                    <a href="tel:+8014199702"><h6>801.419.9702</h6></a>
+
                                 </div>
                                 <div className="Column">
                                     <h5>Web</h5>
-                                    {/*Link to personal Website*/}
-                                    <h6>shanereeve.com</h6>
+                                    <a href="http://infallible-easley-e774eb.netlify.com/" target="_blank" rel="noopener noreferrer"><h6>Shanereeve.com</h6></a>
                                 </div>
                                 <div className="Column">
                                     <h5>Email</h5>
-                                    {/*link to email*/}
-                                    <h6>shanereeve@gmail.com</h6>
+                                    <a href="mailto:shanereeve@gmail.com"><h6>Shanereeve@gmail.com</h6></a>
+
                                 </div>
 
                             </div>
@@ -46,7 +46,8 @@ class Footer extends React.Component {
                                         <a href="https://www.linkedin.com/in/shanereeve/" target="_blank" rel="noopener noreferrer"><div className='Icon'><i className=" fab fa-linkedin-in fa-2x"/></div></a>
                                         <a href="https://github.com/SReeve413" target="_blank" rel="noopener noreferrer"><div className='Icon'><i className="fab fa-github fa-2x"/></div></a>
                                         {/*Download Resume*/}
-                                        <a href="" target="_blank" rel="noopener noreferrer"><div className='Icon'><i className="fas fa-file fa-2x"/></div></a>
+
+                                        <a href="/ShaneReeveResume.pdf" target="_blank" rel="noopener noreferrer"><div className='Icon'><i className="fas fa-file fa-2x"/></div></a>
                                     </div>
                                 </div>
                             </div>

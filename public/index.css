@@ -60,7 +60,13 @@ h6{
     font-weight: lighter;
     margin:0;
 }
-
+a{
+    color: var(--base-color);
+    text-decoration: none;
+}
+a:hover{
+    color:var(--colored-font);
+}
 
 /*Name Component CSS*/
 
@@ -165,6 +171,7 @@ h6{
 .flex-wrap{
     display: Flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 p{
     font-size: 1.25rem;
